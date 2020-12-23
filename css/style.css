@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.svg {
+  position: absolute;
+}
+
+.rectangle_svg {
+  transform: translate(50px, -50px);
+  /* transform: translateX(-50px); */
+  border: 3px dashed green;
+}
+
+.triangle_svg {
+  border: 3px dashed red;
+}
+
+.rectangle_poligon {
+  cursor: pointer;
+}
+
+.triangle_poligon {
+  cursor: pointer;
+}
+
