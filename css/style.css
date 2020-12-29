@@ -15,9 +15,12 @@
   position: absolute;
 }
 
+.triangle_svg {
+  pointer-events: none;
+}
+
 .rectangle_svg {
   transform: translate(50px, -50px);
-  /* transform: translateX(-50px); */
   border: 3px dashed green;
 }
 
@@ -27,9 +30,11 @@
 
 .rectangle_poligon {
   cursor: pointer;
+  pointer-events: all;
 }
 
 .triangle_poligon {
   cursor: pointer;
+  pointer-events: all;
 }
 
